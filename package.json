@@ -1,0 +1,24 @@
+{
+  "name": "picolytics",
+  "version": "1.0.0",
+  "description": "Frontend for self hosted analytics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Intellicode/picolytics.git"
+  },
+  "keywords": [
+    "analytics",
+    "google-cloud-platform",
+    "bigquery"
+  ],
+  "author": "Tom Hastjarjanto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Intellicode/picolytics/issues"
+  },
+  "homepage": "https://github.com/Intellicode/picolytics#readme"
+}
