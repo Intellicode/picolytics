@@ -1,1 +1,1 @@
-# minilytics
+# picolytics
