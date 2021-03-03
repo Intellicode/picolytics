@@ -2,8 +2,10 @@
   "name": "picolytics",
   "version": "1.0.0",
   "description": "Frontend for self hosted analytics",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Intellicode/picolytics/issues"
   },
-  "homepage": "https://github.com/Intellicode/picolytics#readme"
+  "homepage": "https://github.com/Intellicode/picolytics#readme",
+  "devDependencies": {
+    "typescript": "^4.2.2"
+  }
 }
